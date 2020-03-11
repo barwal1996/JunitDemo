@@ -19,9 +19,10 @@ public class Calculator {
 	}
 	
 	public static void main(String[] args) {
-		add(10,20);
-		subtract(20,10);
-		multiply(2,3);
-		divide(10,5);
+		Calculator obj=new Calculator();
+		System.out.println(obj.add(10,20));
+		System.out.println(obj.subtract(20,10));
+		System.out.println(obj.multiply(2,3));
+		System.out.println(obj.divide(10,5));
 	}
 }
