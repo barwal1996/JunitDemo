@@ -18,7 +18,7 @@ public class Calculator {
 		return a/b;
 	}
 	
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		add(10,20);
 		subtract(20,10);
 		multiply(2,3);
